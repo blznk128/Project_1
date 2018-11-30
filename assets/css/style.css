@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Cedarville+Cursive|Handlee|Merienda+One|Patrick+Hand|Walter+Turncoat');
+
+/* Google Maps Styling */
+.testDiv {
+  height: 50%;
+  width: auto;
+  margin: auto;
+}
+
+#map {
+  height: 20rem;
+}
+
+#floating-panel {
+  position: absolute;
+  top: 10px;
+  left: 25%;
+  z-index: 5;
+  background-color: #fff;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: "Roboto", "sans-serif";
+  /* line-height: 30px; */
+}
+
+select {
+  padding-right: 5px;
+  height: 25px;
+}
+
+#floating-panel select {
+  display: block;
+}
+
+#right-panel {
+  font-family: "Roboto", "sans-serif";
+  line-height: 30px;
+  padding-left: 10px;
+}
+
+#right-panel select,
+#right-panel input {
+  font-size: 15px;
+}
+
+#right-panel select {
+  width: 100%;
+}
+
+#right-panel i {
+  font-size: 12px;
+}
+
+#right-panel {
+  height: 20rem;
+  float: right;
+  width: 390px;
+  overflow: auto;
+}
+
+#map {
+  margin-right: 400px;
+}
+
+@media print {
+  #map {
+    height: 500px;
+    margin: 0;
+  }
+  #right-panel {
+    float: none;
+    width: auto;
+  }
+}
+
+/*End Google Maps Styling*/
+
+/* currency puzzle styles */
+
+.currency-puzzle-image {
+  width: 700px;
+  height: auto;
+  margin: auto;
+}
+
+/* end currency puzzle styles */
+
+/* decoder puzzle styles */
+
+.scrambled-letters h6 {
+  display:inline-block;
+  letter-spacing: 25px; 
+  font-weight: bold; 
+  font-size: 24px; 
+  border: solid 1px black;
+  border-right: solid 1px black; 
+  padding: 0px 10px 0px 10px; 
+ }
+
+ /* end decoder puzzles styles */
+
+ /* timer styles */
+
+ #count {
+   position: absolute;
+   right: 0;
+   top: 0;
+   font-size: 30px;
+   margin-right: 50px;
+ }
+
+ /* end timer styles */
+
+ /* scoreboard styles */
+
+#containerScoreBoard h1 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 100px;
+  text-align: center;
+}
+
+#scoreboard-table {
+  padding: 100px;
+  margin: auto;
+}
+
+#play_again {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+/* end scoreboard styles */
+
+ /* general body styles */
+
+ #game-container {
+   margin-top: 75px;
+ }
+
+ .containerFrontPage {
+   background-image: url("../images/map_background.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   position: relative;
+ }
+
+ .containerFrontPage h1 {
+  padding-top: 50px;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 100px;
+ }
+
+ .containerFrontPage h6 {
+  padding: 0px 100px 0px 100px;
+ }
+
+ .usernameImput {
+   margin: auto;
+   width: 50%;
+ }
+
+ #view_scoreboard {
+   position: absolute;
+   right: 15px;
+   bottom: 20px;
+ }
+
+ h3 {
+  font-family: 'Cedarville Cursive', cursive;
+}
+
+.showScoreboard {
+  display: show;
+}
+
+.noPadding {
+ padding: 0px;
+}
+
+/* end body styles */
+
+
+
+
+
+
+
+
